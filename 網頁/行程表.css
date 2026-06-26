@@ -1,0 +1,24 @@
+.schedule-table td {
+    min-width: 132px;
+}
+
+.schedule-table td:first-child {
+    min-width: 118px;
+    color: var(--green);
+    background: rgba(45, 156, 143, 0.1);
+}
+
+.schedule-table .long-plan {
+    min-width: 170px;
+    line-height: 1.65;
+    background: rgba(242, 200, 75, 0.13);
+}
+
+.schedule-table .long-plan strong {
+    color: var(--green);
+}
+
+.schedule-table .stacked {
+    line-height: 1.45;
+    font-weight: 800;
+}

@@ -1,0 +1,20 @@
+.task-table td:first-child {
+    color: var(--green);
+    background: rgba(45, 156, 143, 0.1);
+    text-align: center;
+}
+
+.task-table td:nth-child(3) {
+    text-align: left;
+}
+
+.task-table td:last-child {
+    min-width: 120px;
+}
+
+.task-table .section-row td {
+    color: var(--ink);
+    text-align: center;
+    font-weight: 900;
+    background: rgba(242, 200, 75, 0.28);
+}

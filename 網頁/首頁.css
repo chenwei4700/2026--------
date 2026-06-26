@@ -1,0 +1,13 @@
+.hero {
+    position: relative;
+}
+
+.hero::after {
+    content: "";
+    display: block;
+    width: min(180px, 38vw);
+    height: 8px;
+    margin-top: 28px;
+    border-radius: 8px;
+    background: linear-gradient(90deg, var(--green), var(--gold), var(--coral));
+}
